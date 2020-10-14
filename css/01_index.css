@@ -1,0 +1,20 @@
+body { /* alt gr+ 4 pour faire une accolade. /* pour commenter sur css. <!-- pour HTML */
+     font-family: 'Oswald', sans-serif;
+}
+      
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Piedra', cursive;
+}
+
+h1 {
+    background-color: brown;
+    color: chocolate;
+    padding: 0%;
+}
+
+h2{
+    background-color: crimson;
+    
+
+}
+        

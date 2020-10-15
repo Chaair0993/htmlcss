@@ -1,0 +1,28 @@
+/* /!\commentaire en css, atention les commentaire en css ne se font pas de la méme maniere qu'en html */
+/* les developpeur ont l'habitude d'utiliser un reset qui va uniformiser le rendu sur different navigateur, on trouve quelque exemples sur internet */
+/* prennez l'habitude de tester votre fichier style,en mettant un background-color sur votre balise body*/
+
+selecteur{
+    propriété: valeur; 
+    /* le point virgul est indispensable pour ne pas avoir d'errerus, prenez l'habitude de le mettre tout le temps*/
+}
+
+.class{ /* on peut mettre plusieurs class pour une balise dans le hteml zt on peut utiliser une meme class pour plusieurs balise */
+
+    propriété valeur;
+    propriété valeur;
+    propriété valeur;
+}
+
+#id{ /* on utilise les id de maniére unique, on ne donne pas le meme nom d'id à plusieurs balises, les id sont untilisé aussi pour faire des ancres */
+    propriété; valeur;
+}
+
+.class1, .class2, .class3{ /* pn sépare les selecteurs par des virgules pour en appliquer le meme style */
+    propriété valeur;
+}
+
+.class1, .class2, .class3{ /* ici on parle de la class3 qui est dans la class2 qui est dans la class1*/
+    propriété valeur;
+}
+

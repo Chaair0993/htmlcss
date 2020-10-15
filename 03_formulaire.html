@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire HTML</title>
+    <link rel="stylesheet" href="css/03_formaulaire.css"> <!-- lien pour lié un dossier css-->
+</head>
+<body>
+    <!-- je declare mon fomulaire avec la balise forme-->
+    <form >
+        <label>
+                pseudo
+
+            <input type="text" id="pseudo"name="pseudo" placeholder="exemple" required> <!-- l'id sert a utilisé la donnée avec d'autre langages,
+                 le placeholder contient le texte qui apparait dans l'input type précise le types de donnée recuperér et required precise au 
+                navigateur que le champs est à renseigner obligatoirement-->
+           
+        </label>
+
+        <br>
+
+        <!--mot de passe-->
+
+        <label for="mdp"> 
+            mot de passe <span title="Le mot de passe doit contenir des MAJ et chiffre....">*</span>
+        </label>
+        <input type="password" name="mot de passe" required>
+
+        <br>
+
+        Email 
+        <label for="email" Email ></label>
+        <input type="email" name="email" placeholder="Email">
+
+        <br>
+
+
+        le fichier
+        <label for="photo" photo ></label>
+        <input type="file"name="photos">
+
+        <br>
+        <!-- un choix-->
+        <!-- case a cocher chekbox, pluseurs choix -->
+        <label for="Question 1"></label>Quelle est le noms de vos voiture preferé?</label>
+        <p>
+            <input type="checkbox" name="reponse1">GTD
+            <input type="checkbox" name="reponse1">7R
+            <input type="checkbox" name="reponse1">AMG 
+        </p>
+
+        <br>
+
+        <label for="Question 1"></label>Quelle constructeur?</label>
+        
+        <p>
+            <input type="radio" name="reponse1"checked> allemand <!-- checked= coché par default on le force a choisir notre choix-->
+            <input type="radio" name="reponse1">francais
+            <input type="radio" name="reponse1">Italien
+        </p>
+
+        <br>
+        <br>
+
+        <!-- zone de texte-->
+        <label for="commentaire"Commentaires></label>
+        <textarea name="commentaire" cols="80" rows="8"></textarea>
+        <!-- reoxs=nombres de lignes, cols=nombe de colonnes/caractere-->
+
+        <br>
+
+        <!-- bouton envoi du formulaire-->
+        <input type="submt" name="inscription" value="Envoyer">
+
+        <!-- bouton pour vider le formulaire-->
+        <input type="reset" name="annuler" value="Annuler">
+
+        <br>
+        <a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank" rel="noopener noreferrer">W3school, <br>
+        les types d'input</a>
+
+        <br>
+
+        <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input" target="_blank" rel="noopener noreferrer"> petite 
+        documentation</a>
+            
+        
+    </form>
+
+
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+table{
+    border: 2px solid black;
+    border: ridge;
+    width: 10px;
+    margin: 50px;
+    border-collapse: collapse;
+    height: 12px;
+}
+
+tbody{
+    border: 2px solid black;
+    border: ridge;
+    margin: 50px;
+}
+
+
+tr{
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px;
+    border: 2px ridge black;
+}
+
+
+
+td{
+    font-size: 50%;
+    border: 4px;
+    margin: auto;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    border-collapse: collapse; 
+    border: 1px ridge black;
+}
+
+.jaune{
+    background-color: rgb(252, 255, 104);
+}
+
+.gris{
+    background-color: darkgrey;
+}
+
+.blanc{
+    background-color: rgb(255, 255, 255);
+}
+
+.noir{
+    background-color: black;
+}
+
+.bleu{
+    background-color: blue;
+}

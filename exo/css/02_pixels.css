@@ -1,0 +1,33 @@
+
+table{
+    margin: 100px;
+    border-collapse: collapse;
+    background-color: white;
+    
+}
+
+.noir{
+    background-color: black;
+    width: 3px;
+    height: 5px;
+}
+
+.marron{
+    background-color: #776048;
+}
+
+.beige{
+    background-color: #e2b58d;
+}
+
+.vert{
+    background-color: #4f9d65;
+}
+
+.main{
+    background-color: #c66f2b;
+}
+
+.jaune{
+    background-color: #ffffff;
+}

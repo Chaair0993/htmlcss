@@ -1,0 +1,7 @@
+.dégrader{
+    height: 50em; 
+    width: 70em; 
+    margin: auto; 
+    border-radius: 70%; 
+    background: linear-gradient( to right, #a8a6d4,#b69b6f,#5a53a7,#516da3,#50a188,#875444,#61696f,#8f5a44,#2a95ab,#558c48,#1cb3b4,#db0909,#34a6b6, #d1d1d5);
+}

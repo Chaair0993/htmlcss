@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>liebs HTML</title>
+    <link rel="stylesheet" href="css/06_idex.css">
+</head>
+<header>
+    <header><img src="image.jpg" alt="logo"></img></header>
+</header>
+<body>
+
+    <h1>Les différents liens d'une page HTML: navigation</h1>
+
+
+    <p>Les liens permettent de passer d'une page à une autre dans le meme site, vers un autres site comme d'autres actions</p>
+
+    <h2 id="top"> Les ancres: liens à l'interieur de la<mark> méme </mark> page du site</h2> <!-- <mark>  c'est pour surligner -->
+
+    <p>Les ancres sont particuliérement utiles sur les sites web intégrant beaucoup de contenu ( longueur de page)</p>
+    <P><A href="#interieur"> liens ouvrant un nouvel onglet</A></P>
+
+
+    <P><A href="#onglet"> liens vers un autres site </A></P>
+    <P><A href="#site"> liens vers un autres site web</A></P>
+    <P><A href="#telecharger"> liens de téléchargement d'un fichier  </A></P>
+    <P><A href="#see"> liens de visualisation d'un fichier PDF </A></P>
+    <P><A href="#download"> Liens de téléchargement d'un fichier PDF</A></P>
+    <P><A href="#imageclic"> Liens sur l'image</A></P>
+    <P><A href="#sprint"> Liens permettant d'imprimer la page en cours</A></P>
+
+
+
+    <h2 id="interieur"> Liens intérieurs sur une autres page du site</h2>
+    <p>La balise &lt;a> permet de créer un liens hypertext et l'attribut <em>href</em> permet de définir la destination du liens</p>
+
+
+
+    <a href="index2.html"> Page 2</a>
+    <p class="code">&lt;a href="index2.html">Page 2&lt;/a></p>
+    <p> <a href="#top">Top</a></p>
+
+    <hr>
+
+
+    <h2 id="onglet"> liens ouvrant un nouvel onglet</h2>
+    <p> Sans fermer l'onglet du site consulté, on va consulter un autres site en ouvrant un nouvel onglet.</p>
+    <a href="index2.html" target="_blank"> Page 2, dans un nouvel onglet</a>
+    <p class="code">&lt;a href="index2.html" target="_blank"> Page 2, dans un nouvel onglet&lit:/a</p>
+    <p><a href="#top"> top</a></p>
+    <hr>
+
+
+    <h2 id="site"> Liens vers un autre site web</h2>
+    <p>
+        L'attribut <em>HREF</em> permet de définir la destination du lien et l'attribut <em> title>/</em> affiche une info-bulle au survol de la souris (hover).
+    </p>
+    <a href="http://www.20minutes.fr" title="Se rendre sur 20Minutes - Actualités">20 Minutes</a>
+    <p class="code">
+        &lt;a href="http://www.20minutes.fr" title="Se rendre sur 20Minutes - Actualités">20 
+        Minutes&lt;/a>
+    </p>
+
+
+
+    <h2 id="telecharger"> Lien de téléchargement d'un fichier</h2> <!-- deux maniéres-->
+    <p>
+        ce lien permet de proposer le téléchargement d'un fichier ( attention à l'arborescence des repertoires si votre fichier n'est pas dans le meme repertoire que le fichier index.html)
+    </p>
+
+
+    <a href="img/document.doc"> Télecharger le fichier</a>
+    <p class="code">
+        &lt;a href="img/document.doc"> Télecharger le fichier&lt;/a>
+    </p>
+
+    <p id="download"> Ce liens dotté de l'attribut <em>Download</em>propose le téléchargement d'un fichier</p>
+    <a href="image.pdf" Download> Télécharger l'image</a>
+    <p 
+        class="code">&lt;a href="image.pdf" Download> Télécharger l'image&lt;/a>
+    </p>
+    <p> <a href="#top"> top</a></p>
+    <hr>
+
+
+    <h2 id="see">Lien de Visualisation d'un fichier pdf</h2> <!-- fontcionne sur chrome-->
+    <P> Ce lien ouvre un document PSF directement dans page Web (navigateur)</P>
+    <a href="image.pdf"> Afficher l'image</a>
+    <p 
+        class="code">&lt;a href="image.pdf"> Afficher l'image &lt;/a>
+    </p>
+    <p> <a href="#top"> top</a></p>
+    <hr>
+
+
+    <h2 id="Imageclic"> lien sur un image</h2>
+    <p> Ce lien ouvre une autres URL en cliquant sur une image</p>
+    <a href="http://www.20minutes.fr">
+        <img src="image.jpg" alt=" un lion ">
+    </a>
+    <p>
+        &lt;a href="http://www.20minutes.fr">&lt;img src="image.jpg" alt=" un lion ">&lt; S/a>
+    </p><a href="#top"> top</a>
+    <hr>
+
+    <h2 id="print"> Lien permettant d'imprimer la page en cours</h2>
+    <a href=""onClick="window.print()" >Imprimer la page</a>
+    <p class="code"></p>
+     &lt;a href=""onClick="window.print()" >&lt;Imprimer la page/a>
+     <p> <!-- camelcase snak_case-->
+    <a href="#top"> top</a></p>
+    <hr>
+
+    <a href="https://wprock.fr/blog/liens-html-mail-telephone-fax-skype-ts3/" target="blank">
+         Documentation sur les liens (mails,tel..)
+    </a>
+    <p> <a href="mailto:contact@example.com">Notre adresse mail</a>
+    </p>
+   
+
+</body>
+</html>

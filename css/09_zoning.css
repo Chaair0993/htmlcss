@@ -1,0 +1,66 @@
+body{
+    font-family: 'Krona One', sans-serif;
+    font-size: 10px;
+    
+}
+
+#conteneur{
+    width: 70%;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    background: white; 
+    border: 2px solid rgb(0, 0, 0);
+    padding: 0.1%;
+    
+}
+
+header{
+    background-color: rgb(82, 46, 0);
+    height: 300px;
+    border: 1px solid black;
+}
+
+nav{
+    height: 70px;
+    background-color: rgb(119, 0, 0);
+    border: 1px solid brown;
+}
+
+section{
+    background-color: rgb(255, 157, 157);
+    height: 600px;
+    margin:1px;
+    border: 1px solid black;
+}  
+footer{
+    background:  rgb(82, 46, 0);
+    background: linear-gradient(180deg, rgba(255,151,151,1) 0%, rgba(92,58,58,1) 59%, rgba(255,244,244,1) 98%); 
+    height: 150px;
+    color: cornsilk;
+    border: 1px solid black;
+}
+
+.a, .b, .c, .d{
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+
+.a{
+    background-color: rgb(100, 100, 0)
+}
+
+.b{
+    background-color: burlywood;
+}
+
+.c{
+    background-color: darkolivegreen;
+}
+.d{
+    background-color: gray;
+}
+
+.clear{
+    clear: both;
+}

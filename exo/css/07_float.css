@@ -1,0 +1,50 @@
+body{
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+div{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(255, 254, 238);
+    /* margin: 0 auto 0aito; -> haut droite bas gauche
+    margin: 0;
+    margin: 0auto 1;
+    background-color: lighetskyblue;*/
+}
+
+
+.boite{
+    height: 11vh; /* VH hauteur de l'ecran*/
+    width: 18vh;
+    padding: 5vh;
+    /* 
+    EM: relatif à l'elément parent 
+    REM: relatif a la balise html
+    %: relatif à l'élément parent (%)
+    VH: REALTIF A LA LARGEUR DE L'ECRAN
+    VH: relatif a la hauteur de l'ecran
+    */
+    background: url(../../exo/06_bis_liens/wp2653955.jpg) center;
+    background-repeat: no-repeat;
+    border: 5px double rgb(0, 0, 0);
+    margin: 6vh;
+    float: left;/* un peut un effet flottant, ca place les élément côte a côte alors que le flix standar des élément les placent les uns en-dessous des autres*/
+    transition:  ;
+}
+
+.boite: hover{
+    margin-top :10vh; /* la pseaudo-classe : hover l'affichage au survol de la souris*/
+}
+
+.clear{
+    clear: both /*suprime l'effet flottant a droite et a gauche*/
+}
+
+p{
+    background-color: rgb(165, 110, 110), 161, 161);
+}
+
+p span{
+    background-color: rgb(255, 255, 255);
+}

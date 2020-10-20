@@ -1,0 +1,44 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#contenu{
+    width: 120%;
+    margin: 0px auto;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 78%, rgba(255,255,255,1) 98%); 
+    border: 0px solid rgb(0, 0, 0);
+    padding: 0.1%;
+}
+
+header, footer{
+    height: 300px;
+    background: rgb(125,0,0);
+    background: linear-gradient(180deg, rgba(125,0,0,1) 42%, rgba(255,255,255,1) 78%, rgba(255,255,255,1) 98%); 
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 15px;  
+}
+
+nav{
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-top: 6px;
+
+}
+
+section{
+    border: 5px solid rgb(0, 0, 0);
+    background-color: white;
+    height:  500px;
+    text-align: center;
+    border-left: transparent;
+    border-radius: 45%;
+}
+
+p{
+    margin: 0;
+}
+

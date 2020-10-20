@@ -1,0 +1,100 @@
+.C1{
+    height: 8em;
+    width: 8em;
+    border: 0.2em solid black;
+    margin: 0.2em;
+    /*display: inline-block*/
+    text-align: center;
+    border-radius: 5% 10% 30% 40%;
+    font-size: 120%;
+    color: cornflowerblue;
+    float: left;
+    background: rgb(235,251,196);
+    background: linear-gradient(90deg, rgba(235,251,196,1) 0%, rgba(0,198,255,1) 69%, rgba(252,69,69,1) 100%); 
+}
+
+.C2{
+    height: 9em;
+    width: 9em;
+    border: 0.2em solid black;;
+    margin: 0.2em;
+    /*display: inline-block*/
+    text-align: center;
+    border-radius:120px 10px / 150px;
+    font-size: 120%;
+    color: cornflowerblue;
+    float: left;
+    background: rgb(251,228,196);
+    background: linear-gradient(90deg, rgba(251,228,196,1) 0%, rgba(0,110,255,1) 69%, rgba(252,69,69,1) 100%);  
+}
+
+.C3{
+    height: 9em;
+    width: 9em;
+    border: 0.2em solid rgb(0, 0, 0);
+    margin: 0.2em;
+    /*display: inline-block*/
+    text-align: center;
+    border-radius: 50% 50% 50% 50%;
+    background: green;
+    font-size: 120%;
+    color: cornflowerblue;
+    float: left;
+    background: rgb(255,69,69);
+    background: linear-gradient(243deg, rgba(255,69,69,1) 24%, rgba(255,227,227,1) 33%, rgba(255,255,255,1) 51%, rgba(74,180,255,1) 63%, rgba(255,195,79,1) 86%, rgba(74,180,255,1) 87%, rgba(255,172,9,1) 100%); 
+}
+
+
+.C4{
+    height: 9em;
+    width: 9em;
+    border: 0.2em solid black;;
+    margin: 0.2em;
+    /*display: inline-block*/
+    text-align: center;
+    border-radius: 10px 100px / 120px;
+    font-size: 120%;
+    color: cornflowerblue;
+    float: left;
+    background:  rgb(196,251,245);
+    background: linear-gradient(90deg, rgba(196,251,245,1) 18%, rgba(253,255,150,1) 50%, rgba(69,252,185,1) 100%); ;
+}
+
+
+.C5{
+    height: 9em;
+    width: 9em;
+    /*display: inline-block*/
+    text-align: center;
+    border-radius: 10px 100px / 120px;
+    font-size: 120%;
+    color: cornflowerblue;
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+
+.C6{
+    height: 9em;
+    width: 9em;
+    border: 0.2em solid black;;
+    margin: 0.2em;
+    /*display: inline-block*/
+    text-align: center;
+    border-radius: 15px 100px / 120px;
+    font-size: 120%;
+    color: cornflowerblue;
+    float: left;
+    background: rgb(238,174,174);
+    background: radial-gradient(circle, rgba(238,174,174,1) 64%, rgba(10,64,66,1) 87%); 
+}
+
+.clear{
+    clear: both;
+}
+
+
+h1{
+    color: black;
+    text-align: center;
+    border: cadetblue;
+}

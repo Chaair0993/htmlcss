@@ -1,0 +1,43 @@
+.code{
+    color: rgb(0, 0, 0);
+    background:  rgb(213, 220, 228);
+    display: inline-block;
+    font-style: italic;
+}
+
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    color: rgb(180, 112, 112);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    -webkit-box-shadow: 8px 55px 62px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 8px 55px 62px 0px rgba(0,0,0,1);
+    box-shadow: 8px 55px 62px 0px rgba(0,0,0,1);
+}
+
+h2{
+    color: rgb(96, 127, 168);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    -webkit-box-shadow: 8px 55px 86px 8px rgba(0,0,0,1);
+    -moz-box-shadow: 8px 55px 86px 8px rgba(0,0,0,1);
+    box-shadow: 8px 55px 86px 8px rgba(0,0,0,1);
+}
+
+p{
+    font-family: 'Suwannaphum', cursive;
+}
+
+header {
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 1px;
+    background-size: 1px;
+   
+}
+

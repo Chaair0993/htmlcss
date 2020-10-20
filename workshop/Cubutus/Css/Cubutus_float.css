@@ -1,0 +1,26 @@
+.c1, .c2{
+    height: 10em;
+    width: 10em;
+    border: 0.2em solide black;;
+    margin: 0.2em;
+    /*display: inline-block;*/
+    text-align: center;
+    border-radius: 20%;
+    font-size: 120%;
+    color: cornflowerblue;
+    float: left;
+}
+
+.c1{
+    background: rgb(128,130,113);
+    background: linear-gradient(90deg, rgba(128,130,113,1) 6%, rgba(255,241,218,1) 13%, rgba(237,245,190,1) 16%, rgba(221,203,121,1) 18%, rgba(181,247,227,1) 29%, rgba(255,224,214,1) 33%, rgba(190,227,255,1) 45%, rgba(255,199,176,1) 54%, rgba(179,242,255,1) 62%, rgba(174,255,155,1) 83%, rgba(143,254,255,1) 95%, rgba(219,9,9,1) 100%, rgba(52,166,182,0.3673670151654411) 100%, rgba(204,204,255,1) 100%); 
+}
+
+.c2{
+     background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 6%, rgba(247,154,0,1) 13%, rgba(218,255,0,1) 16%, rgba(255,209,0,1) 18%, rgba(0,255,178,1) 29%, rgba(255,62,0,1) 33%, rgba(0,145,255,1) 45%, rgba(255,74,0,1) 54%, rgba(0,211,255,1) 62%, rgba(48,255,0,1) 83%, rgba(143,254,255,1) 95%, rgba(219,9,9,1) 100%, rgba(52,166,182,0.3673670151654411) 100%, rgba(0,0,255,1) 100%); 
+}
+
+.clear{
+    clear: both;
+}

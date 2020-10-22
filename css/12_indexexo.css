@@ -1,0 +1,74 @@
+body{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin: 1% 28%  80%;
+   background-color: black;
+}
+
+#conteneur{
+    background: #336699; 
+    width: 800px;
+    height: 530px;
+}
+header{
+    background: rgb(243,0,0);
+    background: radial-gradient(circle, rgba(243,0,0,1) 46%, rgba(255,255,255,1) 69%, rgba(255,0,0,1) 100%); 
+    width: 800px; 
+    height: 70px;
+    text-align: center;
+    line-height: 500%;
+}
+.gauche{
+    background: rgb(69,149,139);
+    background: radial-gradient(circle, rgba(69,149,139,1) 46%, rgba(97,95,60,1) 69%, rgba(8,233,255,1) 100%);   
+    width: 150px; 
+    height: 530px; 
+    float: left;
+    text-align: center;
+    line-height: 3000%;
+}
+
+.droite{
+    background: rgb(69,149,139);
+    background: radial-gradient(circle, rgba(69,149,139,1) 46%, rgba(97,95,60,1) 69%, rgba(8,233,255,1) 100%); 
+    width: 95px; 
+    height:430px; 
+    float: right;
+    text-align: center;
+    line-height: 3000%;
+}
+.premier{
+    background: rgb(65,205,113);
+    background: radial-gradient(circle, rgba(65,205,113,1) 46%, rgba(163,196,171,1) 69%, rgba(57,255,0,1) 100%); 
+    width: 98px;
+    height: 430px; 
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 3000%;
+}
+.droite{
+    background: rgb(69,149,139);
+    background: radial-gradient(circle, rgba(69,149,139,1) 46%, rgba(97,95,60,1) 69%, rgba(8,233,255,1) 100%); 
+    width: 150px; 
+    height: 530px; 
+    float: right;
+    text-align: center;
+}
+
+.bas{
+    background: rgb(251,255,143);
+    background: radial-gradient(circle, rgba(251,255,143,1) 46%, rgba(182,178,84,1) 87%, rgba(255,248,8,1) 100%);  
+    width: 499px; 
+    height: 99px; 
+    line-height: 80px;
+    bottom: 98px;
+    left: 150px;
+    position: relative;
+    text-align: center;
+    line-height: 500%;;
+    
+}
+.clear{
+    clear: both;
+}
+

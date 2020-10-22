@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revision sélécteurs css</title>
+    <link rel="stylesheet" href="css/04_bis_selecteur.css">
+</head>
+<body>
+
+    
+   
+    <nav>
+        <a href="#">Homme</a>
+        <a href="#">Edito</a>
+        <a href="#">Panier</a>
+        <a href="#">FAQ</a>
+        <a href="#">Nous contacter</a>
+    </nav>
+
+    <section class="container">
+        <h1> Aide mémoire des sélecteurs css deja vus</h1>
+        
+        
+        <ul>
+            <li>
+                <mark>* Sélectionne tous les élément de la page html</mark>
+            </li>
+            <li>
+                <mark>.ma-joli-nav</mark> Séléctionne tous les élément ayant le nom de "class ma-joli-nav".
+            </li>
+            <li>
+                <mark>#Mon-unique-id</mark> Sélectionne l'élément ayant le nom d'id "mon-unique-id".
+            </li>
+            <li>
+                <mark>Div, article, aside</mark> sélectionne toutes les balises &lt;div>. &lt;article> et &ltaside>.
+            </li>
+            <li>
+                <mark>Nav a</mark> sélectionne tous les liens &lt;a> inclus/imbriqués dans la balise &lt;nav>
+            </li>
+            <li>
+                Nav a <mark>:Hover</mark> sélectionne tous ls liens de la nav et active une animation lors du survole de la souris.
+            </li>
+        </ul>
+
+        <br>
+    </section>
+
+
+    <div class="container1">
+        <section class="container2">
+            <h2>Propriétés CSS utilisées dans cette page</h2>
+            <h3>Décrivez leur usage et leurs valeurs possibles</h3>
+            <ol>
+
+                <li><mark>Background</mark>:<em> background pour inclure un ou plusieurs scripts d'arrière-plan, et éventuellement une page d'arrière-plan dans votre extension</em></li>
+
+                <li><mark>Color</mark>: Couleur</li>
+                <li><mark>Float:<em>La propriété float indique qu'un élément doit être retiré du flux normal et doit être placé sur le côté droit ou sur le côté gauche de son conteneur. </em> </li>
+
+                <li></mark>Font-family<mark>:<em>La propriété font-family permet de définir une liste, ordonnée par priorité, de polices à utiliser pour mettre en forme le texte de l'élément ciblé.</em> </li>
+
+                <li></mark>Font-size<mark>:<em>L'attribut font-size fait référence à la taille de la police de la ligne </em> </li>
+
+                <li></mark>Height<mark>:<em> Si on fournit une seule valeur, c'est cette valeur qui sera utilisée pour la hauteur minimale et maximale de la zone d'affichage (viewport). Si on fournit deux valeurs, la première correspondra à la hauteur minimale de la zone d'affichage et la deuxième à la hauteur maximale.</em></li>
+
+                <li><mark>Left</mark>:<em> La propriété left permet de définir une partie de la position des éléments positionnés. Elle n'a aucun effet pour les éléments non-positionnés.</em></li>
+
+                <li><mark>Line-height</mark>:<em>Sur les éléments de bloc, la propriété line-height indique la hauteur minimale des lignes au sein de l'élément. Sur les éléments en ligne qui ne sont pas remplacés, line-height indique la hauteur utilisée pour calculer la hauteur de la boîte d'une ligne.</em> </li>
+
+                <li><mark>Margin</mark>: <em> La propriété margin définit la taille des marges sur les quatre côtés de l'élément. C'est une propriété raccourcie qui permet de manipuler les autres propriétés de marges : margin-top, margin-right, margin-bottom et margin-left.</em></li>
+                <li><mark>Padding</mark>:<em> La propriété padding est une propriété raccourcie qui permet de définir les différents écarts de remplissage sur les quatre côtés d'un élément (cf. les boîtes CSS). Elle synthétise padding-top, padding-right, padding-bottom, padding-left.</em></li>
+                <li><mark>Position</mark>:<em>La propriété position définit la façon dont un élément est positionné dans un document. Les propriétés top, right, bottom et left déterminent l'emplacement final de l'élément positionné.</em> </li>
+
+                <li><mark>Text-aligne</mark>:<em>La propriété text-align définit l'alignement horizontal d'un élément de bloc ou de la boîte d'une cellule de tableau. Cette propriété fonctionne donc de façon analogue à vertical-align mais dans le sens horizontal.</em></li>
+
+                <li><mark>Text-decoration</mark>: <em> La propriété text-decoration est utilisée pour « décorer » le texte en ajoutant une ligne pouvant être positionnée sous, sur ou à travers le texte. C'est une propriété raccourcie qui permet de paramétrer simultanément les propriétés « détaillées » : text-decoration-line, text-decoration-color et text-decoration-style.</em></li>
+
+                <li><mark>Top</mark>:<em> La propriété top définit une partie de la position des éléments positionnés, elle n'a aucun effet pour les éléments non-positionnés.</em></li>
+
+                <li><mark>Transition</mark>:<em>La propriété transition est une propriété raccourcie pour les propriétés transition-property, transition-duration, transition-timing-function et transition-delay.</em></li>
+
+                <li><mark>Width</mark>:<em>Si on fournit une seule valeur, c'est cette valeur qui sera utilisée pour la largeur minimale et maximale de la zone d'affichage (viewport). Si on fournit deux valeurs, la première correspondra à la largeur minimale de la zone d'affichage et la deuxième à la largeur maximale. </em></li>
+            </ol>
+        </section>
+
+
+        <section class="container3">
+            <h2>Propriétés css à rechercher</h2>
+            <h3>Recherhcez les propriétés ci-dessous, faites des testes sur cette page en utilisant la console de débuggage pour tester les     valeur qu'elle peuvent prendre. (F12 dans le navigateur).
+            </h3>
+
+
+            <ol>
+                <li><strong>Font-weight:</li> <mark>font-weight permet de définir la graisse utilisée pour le texte.</mark>
+
+                <li><strong>letter-spacing</strong>:L'attribut letter-spacing contrôle l'espacement entre les caractères de texte, en plus de tout espacement de l'attribut de crénage.</li>
+
+                <li><strong>Work-spacing</strong>:L'attribut word-spacing spécifie le comportement d'espacement entre les mots.</li>
+
+                <li><strong>Text-shadow</strong>:La propriété text-shadow ajoute des ombres au texte. Elle accepte une liste d'ombres à appliquer au texte et aux décorations de l'élément. Chaque ombre est décrite par une certaine combinaison de décalages X et Y de l'élément, de rayon de flou et de couleur.</li>
+
+                <li><strong>Backgroung-image</strong>: La propriété background-image permet de définir une ou plusieurs images comme arrière(s)-plan(s) pour un élément.</li>
+
+                <li><strong>Background-size></strong>: La propriété CSS background-size définit la taille des images d'arrière-plan pour l'élément. La taille de l'image peut être contrainte, complètement ou partiellement afin de conserver ses proportions.</li>
+
+                <li><strong>Opacity</strong>: L'attribut opacity spécifie la transparence d'un objet ou d'un groupe d'objets, c'est-à-dire le degré de superposition de l'arrière-plan derrière l'élément.</li>
+
+                <li><strong>Border-style</strong>: La propriété CSS border-style est une propriété raccourcie qui permet de définir le style des lignes utilisées pour les bordures des quatre côtés de la boîte d'un élément.</li>
+
+                <li><strong>Box-sadow</strong>: La propriété CSS box-shadow ajoute des ombres à la boîte d'un élément via une liste d'ombres séparées par des virgules. Une boîte d'ombre est définie avec des décalages horizontal et vertical par rapport à l'élément, avec des rayons de flou et d'étalement et avec une couleur.</li>
+
+                <li><strong>list-style-image</strong>: La propriété list-style-image définit l'image utilisée comme puce devant les éléments de listes. On peut également utiliser la propriété raccourcie list-style.</li>
+
+ 
+                <li><strong>Border</strong>: La propriété CSS border est une propriété raccourcie qui permet de définir les propriétés liées à la bordure. border peut être utilisée pour définir les valeurs de border-width, border-style et border-color.</li>
+
+                <li><strong>Border-radius</strong>: La propriété border-radius permet de définir des coins arrondis pour la bordure d'un élément. La courbure de chaque coin est définie avec un ou deux rayons de courbures qui permettent de définir un arc de cercle ou un arc d'ellipse.</li>
+
+                <li><strong>Border-width</strong>: La propriété CSS border-width est une propriété raccourcie qui définit la largeur de la bordure d'un élément<li>
+
+                <li> <strong>Font-varitant:</strong> La propriété font-variant est une propriété raccourcie représentant les propriétés : font-variant-caps, font-variant-numeric, font-variant-alternates, font-variant-ligatures et font-variant-east-asian. On peut aussi utiliser les valeurs de la propriété font-variant définies avec CSS Level 2 (normal ou small-caps), en utilisant la propriété raccourcie font.</li>
+
+                <li><strong>Background-color:</strong> La propriété background-color permet de définir la couleur utilisée pour l'arrière-plan d'un élément (celle-ci peut être une couleur transparente).</li>
+
+                <li><strong>!Important:</strong> La règle CSS !important permet de spécifier que la propriété est la plus importante dans votre feuille CSS en lui donnant un poids plus important.
+                La règle de feuille de style !important CSS est généralement utilisée dans le cas où une propriété de feuille de style CSS est déclarée plusieurs fois avec des ciblages différents.</li>
+            </ol>
+        </section>
+    </div>
+
+    <div class="clear"></div>
+    <div><!-- fin div container1 --></div>
+
+        <section class="container container4">
+            <h2>Pour aller plus loin en CSS, quelques pistes...</h2>
+
+            <ul><!--ul>li*8>a-->
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS"> MDN le site officiel</a></li>
+                <li><a href="https://tympanus.net/codrops/">Codrops, références, tutos..</a></li>
+                <li><a href="https://flukeout.github.io/">jeu avec les selecteur CSS</a></li>
+                <li><a href="http://flexboxfroggy.com/">Autre jeu avec les "Flexbox"</a></li>
+                <li><a href="http://viewportsizes.com/">Différents tailles d'écrans</a></li>
+                <li><a href="http://fr.learnlayout.com/">Dispplays</a></li>
+                <li><a href="https://purecss.io/">Encore des tutos</a></li>
+                <li><a href="https://www.w3c.org/Style/CSS/learning">Le site du W3C</a></li>
+            </ul>
+        </section>
+
+        <footer>
+            <div id="Avatar"> <img src="../htmlcss/Img/e9441bca-6edd-4a94-87ee-6860cc752d5c.png" alt=""> </div>
+            <p>© 2020 Amine Chaair</p>
+        </footer>
+</body>
+</html>

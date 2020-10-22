@@ -1,0 +1,113 @@
+*{
+    font-family:;
+}
+
+nav{
+    background: rgb(0,0,0);
+    background: linear-gradient(184deg, rgba(0,0,0,1) 8%, rgba(0,0,0,1) 22%, rgba(0,0,0,1) 33%, rgba(0,0,0,1) 63%, rgba(255,255,255,1) 66%, rgba(0,0,0,1) 68%, rgba(0,0,0,1) 82%, rgba(255,255,255,1) 100%, rgba(0,0,0,1) 100%); 
+    padding: 0 0.5em;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0;/* position a partir du haut d'ecran!*/
+    left: 0; /* position à partir du bord gauche de léecran*/
+    margin: 0 0 20px; /*top right bottom left=right*/
+}
+
+nav a{
+    float: left;
+    text-decoration: none; /* pas de soulignage dans le cas des liens*/
+    color: rgb(255, 255, 255);/* récupéré dans nav*/
+    height: 2.8em; /*nous n'avons pas donné de hauteur à la nav alors celle-ci vas prendre celle de ces enfant*/
+    line-height: 2.7em; /*interligne */
+    padding: 0em 2em;
+    font-size: 1.2em;
+    transition: 2s;
+}
+
+nav a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    width: 70%;
+    margin: 4% auto 2% auto;
+    background-color: rgb(255, 255, 255);
+    padding: 2em;
+    transition: 2s;
+    border: solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+mark{
+    background: rgb(254,255,141);
+    background: linear-gradient(180deg, rgba(254,255,141,1) 0%, rgba(139,255,228,1) 89%); 
+}
+
+.container1{
+    width: 100%;
+    margin: 1% auto;
+    background: rgb(57,130,148);
+    background: linear-gradient(171deg, rgba(57,130,148,1) 5%, rgba(255,255,255,1) 10%, rgba(50,129,144,1) 27%, rgba(255,255,255,1) 42%, rgba(51,151,163,1) 51%, rgba(255,255,255,1) 76%, rgba(255,255,255,1) 77%, rgba(40,132,145,1) 84%, rgba(255,255,255,1) 94%); 
+    padding: 2%;
+}
+
+.container2, .container3{
+    width: 44.5%;
+    background-color: white; 
+    padding: 2%;
+    float: left;
+    
+}
+
+.container2{
+    margin-right: 1.5%;
+}
+
+.container3{
+    margin-left: 1.5%;
+}
+
+.conainer4{
+    margin-top: 2em;
+}
+
+.clear{
+    clear: both;
+}
+
+
+footer{
+    background-image: url(../Img/e9441bca-6edd-4a94-87ee-6860cc752d5c.png);
+    background-repeat: repeat;
+    height: 50%;
+    width: 100%;
+    padding-right: 10%;
+    padding: 10%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.container3 ol li:nth-of-type(11){
+    border: 1px solid red;
+}
+
+.container3 ol li:first-child{
+    font-weight: 700;
+}
+
+.container3 ol li:nth-of-type(7){
+    opacity: 0.5;
+}
+
+container3 ol li:last-child{
+    color: rgb(105, 255, 100);
+}

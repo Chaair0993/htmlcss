@@ -29,7 +29,7 @@ section p:last-child{
     color: rgb(214, 206, 132);
 }
 
-section p:nth-child(even){ /* numeros de l'enfant */
+section p:nth-child(even){ /* numeros de l'enfant */ /*milieu, even impaire odd paire*/
     color: rgb(218, 154, 70); /* les p pairs */
 }
 

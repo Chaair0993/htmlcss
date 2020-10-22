@@ -1,0 +1,39 @@
+h1, h2, div, a, p, span, section{
+    text-align: center;
+    border: 0.5px solid black;
+    background-color: rgb(233, 220, 168);
+    
+}
+
+.block{
+    display: block;
+}
+
+.inline{
+    display: inline;
+    
+}
+
+.container {
+    position: relative;
+  }
+  nav {
+    position: absolute;
+    left: 0px;
+    width: 200px;
+  }
+  section {
+    /* position is static by default */
+    margin-left: 200px;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    background-color: white;
+    width: 100%;
+  }
+  body {
+    margin-bottom: 120px;
+  }

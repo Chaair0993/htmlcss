@@ -1,0 +1,45 @@
+/* Media querie permet de ré-arranger la disposition du site en fonction des taille des navigateur en piwel site : viewportsizes.com - En génerale 3 taille suffisent.
+On peut faire une feuille de style standars et une seulement pour le responsive " responsive le rendu de la page vas s'adapter a la taille de l'ecran
+la zone est verte en pleine ecran passe d'une couleur a l'autre pour arrivée au rouge une foi l'ecran retrecie, on utilisras les breakpoint= "la taille a partir de laquele la taille de site vas changer le point de cassure"1200 px, 992 et 768 en pixels
+un site doit etre concus en pensant des le debut a la version mobile, on appel ca mobil first*/
+
+.zone-adaptative{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 17%, rgba(210,159,159,1) 23%, rgba(158,102,102,1) 35%, rgba(255,255,255,1) 80%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); ;
+    color: cornsilk;
+    padding: 10px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media(min-width: 768px){/* @media sers a definir la taille de l'ecran et s'adapter*/
+    .zone-adaptative{
+        width: 750px;
+        background: rgb(0,0,0);
+        background: radial-gradient(circle, rgba(0,0,0,1) 46%, rgba(255,163,251,1) 57%, rgba(0,0,0,1) 100%); ;
+    }
+}
+
+@media(min-width: 992px){
+    .zone-adaptative{ 
+        width: 970px;
+        background: rgb(125,139,255);
+        background: radial-gradient(circle, rgba(125,139,255,1) 46%, rgba(255,255,255,1) 57%, rgba(255,154,154,1) 100%); ;
+}
+}
+
+@media(min-width: 1200px){
+    .zone-adaptative{ 
+        width: 1170px;
+        background: rgb(125,255,131);
+        background: radial-gradient(circle, rgba(125,255,131,1) 46%, rgba(255,255,255,1) 68%, rgba(163,255,154,1) 100%); ;
+}
+}
+
+@media(min-width: 1500px){
+    .zone-adaptative{ 
+        width: 1400px;
+        background: rgb(125,250,255);
+        background: radial-gradient(circle, rgba(125,250,255,1) 46%, rgba(255,255,255,1) 68%, rgba(255,154,154,1) 100%); 
+}
+}

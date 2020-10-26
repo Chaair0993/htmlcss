@@ -1,0 +1,35 @@
+body{
+    padding: 0px 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+.c1{
+    text-align: center;
+    padding: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+tfoot{ 
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: 200px;
+}
+
+img{
+    padding: 10px;
+}
+
+table{
+    border: 1px dashed black;
+}
+
+thead img{
+    width: 100%;
+    padding: 0px;
+}
+
+.c3{
+    padding: 40px;
+}
+

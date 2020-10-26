@@ -1,0 +1,47 @@
+body{
+    margin: 200px 400px 0px;
+}
+
+
+
+
+table{
+    border-collapse: collapse;
+    margin: 150px;
+}
+
+th{
+    background-color: rgb(83, 229, 255);
+    width: 700px;
+    height: 210px;
+}
+
+td, th{
+    border: 2px solid black;
+    text-align: center;
+    padding: 8px;
+}
+
+.espace7{
+    width: 50px;
+    height: 50px;
+}
+
+.espace8{
+    width: 50px;
+    height: 50px;
+}
+
+.espace9{
+    height: 100px;
+    color: red;
+    font-size: 20px;
+    vertical-align: text-top;
+    
+}
+
+.espace10{
+    height: 200px;
+    width: 50px;
+}
+
